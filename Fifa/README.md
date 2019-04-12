@@ -1,8 +1,8 @@
 # Grafica Polar Fifa 2019 DataSet Kaggle
 
-### ***DATASET***: [FIFA 19 complete player dataset created by Karan Gadiya](https://www.kaggle.com/karangadiya/fifa19)
+## ***DATASET***: [FIFA 19 complete player dataset created by Karan Gadiya](https://www.kaggle.com/karangadiya/fifa19)
 
-### Imports
+## Imports
 
 ```
 import matplotlib
@@ -18,7 +18,7 @@ from datetime import datetime, timedelta
 import random
 ```
 
-### New Categories
+## New Categories
 
 New categories are created by joining player statistics and obtaining the average.
 For example, to obtain the strength of the player join the balance, jump, stamina and strength and the average of each of them is obtained a general average that transforms into the ***Power*** column
@@ -31,7 +31,7 @@ def power(players):
 players['Power'] = players.apply(power, axis=1)
 ```
 
-### Division of current features to generate the new columns
+## Division of current features to generate the new columns
 
 - ***Defending*** = [Marking, StandingTackle, SlidingTackle]
 - ***General*** = [HeadingAccuracy, Dribbling, Curve, BallControl]
@@ -42,7 +42,7 @@ players['Power'] = players.apply(power, axis=1)
 - ***Rating*** = [Potential, Overall]
 - ***Shooting*** = [Finishing, Volleys, FKAccuracy, ShotPower, LongShots, Penalties]
 
-### Type of graphic
+## Type of graphic
 
 - Matplotlib Polar
 
@@ -52,7 +52,7 @@ To see the information just pass the id to the graphPolar function, this calls t
 
 The dataset has 17918 so you can pass an id from 0 to 17917.
 
-### Creation, download and visualization of images
+## Creation, download and visualization of images
 
 When executing the function that creates the graph this will go through the variables to obtain through the url that we have passed the flag of the country where the player was born, the logo of the team where he plays and a photo of his face (***flag_image*** , ***player_image***, ***logo_image***). These images will be downloaded only once in the project folder, then they will be modified as the function is called again.
 
@@ -64,7 +64,7 @@ with open(flag_image, 'wb') as handler:
     handler.write(img_flag)
 ```
 
-### Data visualization
+## Data visualization
 
 ![Messi](example/1.png)
 ![Ronaldo](example/2.png)

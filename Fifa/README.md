@@ -46,6 +46,12 @@ players['Power'] = players.apply(power, axis=1)
 
 - Matplotlib Polar
 
+The graphic contains the name of the player, his age, the team where he currently plays, the nationality, the photo, the image of the club logo, the flag of the country where he was born and the statistics that were created with the function.
+
+To see the information just pass the id to the graphPolar function, this calls the detail function by passing everything necessary to create the graph and visualize it. This function can be put inside a loop to bring all the players that are needed.
+
+The dataset has 17918 so you can pass an id from 0 to 17917.
+
 ### Data visualization
 
 ![Messi](1.png)

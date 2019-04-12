@@ -4,7 +4,7 @@
 
 ### Imports
 
-<code>
+```
 import ***matplotlib***
 import ***matplotlib.pyplot*** as plt
 import ***matplotlib.image*** as mpimg
@@ -16,20 +16,20 @@ import ***requests***
 from time import ***time***
 from datetime import ***datetime***, ***timedelta***
 import ***random***
-</code>
+```
 
 ### New Categories
 
 New categories are created by joining player statistics and obtaining the average.
 For example, to obtain the strength of the player join the balance, jump, stamina and strength and the average of each of them is obtained a general average that transforms into the strength column
 
-<code>
+```
 def power(players):
     return int(round((players[['Balance', 'Jumping', 'Stamina', 
                                'Strength']].mean()).mean()))
 
 players['Power'] = players.apply(power, axis=1)
-<code>
+```
 
 
 - ***Defending*** = [Marking, StandingTackle, SlidingTackle]

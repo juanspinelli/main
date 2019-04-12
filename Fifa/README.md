@@ -63,6 +63,7 @@ img_flag = requests.get(image).content
 with open(flag_image, 'wb') as handler:
     handler.write(img_flag)
 ```
+![Kroos](example/img.png)
 
 ## Data visualization
 

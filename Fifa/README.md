@@ -31,6 +31,7 @@ def power(players):
 players['Power'] = players.apply(power, axis=1)
 ```
 
+### Division of current features to generate the new columns
 
 - ***Defending*** = [Marking, StandingTackle, SlidingTackle]
 - ***General*** = [HeadingAccuracy, Dribbling, Curve, BallControl]

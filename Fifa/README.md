@@ -25,7 +25,7 @@
 - Mobility = [Acceleration, SprintSpeed, Agility, Reactions]
 - Power = [Balance, Jumping, Stamina, Strength]
 - Rating = [Potential, Overall]
-- shooting = [Finishing, Volleys, FKAccuracy, ShotPower, LongShots, Penalties]
+- Shooting = [Finishing, Volleys, FKAccuracy, ShotPower, LongShots, Penalties]
 
 #### Type of graphic
 

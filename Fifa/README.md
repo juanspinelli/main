@@ -44,8 +44,6 @@ players['Power'] = players.apply(power, axis=1)
 
 ### Type of graphic
 
-With these new features a new dataset is created from which the graph will be nourished
-
 - Matplotlib Polar
 
 ### Data visualization

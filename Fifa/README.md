@@ -33,7 +33,7 @@
 
 #### Data visualization
 
-![Messi](1.jpg)
-![Ronaldo](2.jpg)
-![Neymar](3.jpg)
-![Kroos](4.jpg)
+![Messi](1.png)
+![Ronaldo](2.png)
+![Neymar](3.png)
+![Kroos](4.png)

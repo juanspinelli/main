@@ -5,17 +5,17 @@
 ### Imports
 
 ```
-import ***matplotlib***
-import ***matplotlib.pyplot*** as plt
-import ***matplotlib.image*** as mpimg
-from matplotlib.offsetbox import (***OffsetImage***,***AnnotationBbox***)
-import ***pandas*** as pd
-import ***numpy*** as np
-from math import ***pi***
-import ***requests***
-from time import ***time***
-from datetime import ***datetime***, ***timedelta***
-import ***random***
+import matplotlib
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+from matplotlib.offsetbox import (OffsetImage,AnnotationBbox)
+import pandas as pd
+import numpy as np
+from math import pi
+import requests
+from time import time
+from datetime import datetime, timedelta
+import random
 ```
 
 ### New Categories

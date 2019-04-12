@@ -21,7 +21,7 @@ import random
 ### New Categories
 
 New categories are created by joining player statistics and obtaining the average.
-For example, to obtain the strength of the player join the balance, jump, stamina and strength and the average of each of them is obtained a general average that transforms into the strength column
+For example, to obtain the strength of the player join the balance, jump, stamina and strength and the average of each of them is obtained a general average that transforms into the ***Power*** column
 
 ```
 def power(players):

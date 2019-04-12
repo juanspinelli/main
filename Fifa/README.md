@@ -2,7 +2,7 @@
 
 ### ***DATASET***: https://www.kaggle.com/karangadiya/fifa19
 
-#### Imports
+### Imports
 
 - import ***matplotlib***
 - import ***matplotlib.pyplot*** as plt
@@ -16,7 +16,7 @@
 - from datetime import ***datetime***, ***timedelta***
 - import ***random***
 
-#### New Categories
+### New Categories
 
 - ***Defending*** = [Marking, StandingTackle, SlidingTackle]
 - ***General*** = [HeadingAccuracy, Dribbling, Curve, BallControl]
@@ -27,11 +27,11 @@
 - ***Rating*** = [Potential, Overall]
 - ***Shooting*** = [Finishing, Volleys, FKAccuracy, ShotPower, LongShots, Penalties]
 
-#### Type of graphic
+### Type of graphic
 
 - Matplotlib Polar
 
-#### Data visualization
+### Data visualization
 
 ![Messi](1.png)
 ![Ronaldo](2.png)

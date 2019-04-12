@@ -52,9 +52,21 @@ To see the information just pass the id to the graphPolar function, this calls t
 
 The dataset has 17918 so you can pass an id from 0 to 17917.
 
+### Creation, download and visualization of images
+
+When executing the function that creates the graph this will go through the variables to obtain through the url that we have passed the flag of the country where the player was born, the logo of the team where he plays and a photo of his face (***flag_image*** , ***player_image***, ***logo_image***). These images will be downloaded only once in the project folder, then they will be modified as the function is called again.
+
+```
+flag_image = "img_flag.jpg"
+    
+img_flag = requests.get(image).content
+with open(flag_image, 'wb') as handler:
+    handler.write(img_flag)
+```
+
 ### Data visualization
 
-![Messi](1.png)
-![Ronaldo](2.png)
-![Neymar](3.png)
-![Kroos](4.png)
+![Messi](example/1.png)
+![Ronaldo](example/2.png)
+![Neymar](example/3.png)
+![Kroos](example/4.png)

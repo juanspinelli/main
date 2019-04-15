@@ -1,5 +1,7 @@
 # Grafica Polar Fifa 2019 DataSet Kaggle
 
+![Kroos](example/fondo.jpg)
+
 ## ***DATASET***: [FIFA 19 complete player dataset created by Karan Gadiya](https://www.kaggle.com/karangadiya/fifa19)
 
 ## IMPORTS

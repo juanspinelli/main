@@ -73,3 +73,11 @@ with open(flag_image, 'wb') as handler:
 ![Ronaldo](example/2.png)
 ![Neymar](example/3.png)
 ![Kroos](example/4.png)
+
+## NEW
+
+I create a new notebook with different visualization.
+To see it enter to Grafica Modificada.ipynb
+
+
+![New](example/new.png)
